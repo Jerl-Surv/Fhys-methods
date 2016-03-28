@@ -8,8 +8,8 @@ for A in range(0, 340, 10):
         for C in range(26, 54, 1):
             for i in range(4):
                 Hp.append(int(A + B / F[i] + C * F[i]))
-                print(Hp)
-                if (H[i] - 30)<Hp[i]<(H[i] + 30):
+                #print(Hp)
+                if (H[i] - 20)<Hp[i]<(H[i] + 20):
                     N = N+1				
             if N > 2:
                 print ('It seems ok: ', 'A = ', A, 'B = ', B, 'C = ', C, Hp)
