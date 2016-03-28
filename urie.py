@@ -9,11 +9,7 @@ for A in range(0, 600, 10):
             for i in range(4):
                 Hp.append(int(A + B / F[i] + C * F[i]))
                 #print(Hp)
-<<<<<<< HEAD
                 if (H[i] - 30)<Hp[i]<(H[i] + 30):
-=======
-                if (H[i] - 20)<Hp[i]<(H[i] + 20):
->>>>>>> origin/master
                     N = N+1				
             if N > 3:
                 print ('It seems ok: ', 'A = ', A, 'B = ', B, 'C = ', C, Hp)
